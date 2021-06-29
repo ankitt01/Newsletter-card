@@ -36,6 +36,52 @@ font-weight: 500;
 font-size: 20px;
 `;
 
+const FormGroup = styled.div`
+display: flex;
+position: relative;
+height: 53px;
+margin-top: 1em;
+`;
+
+const EmailInput = styled.input`
+outline: none;
+border: none;
+background-color: #fff;
+padding-left: 1.5em;
+padding-right: 3em;
+border-radius: 17px;
+font-size: 20px;
+color: black;
+height: 100%;
+
+&::placeholder {
+    color: #272727;
+}
+`;
+
+const SunscribeButton = styled.button`
+position: absolute;
+right: -10px;
+top: 0;
+height: 100%;
+border: none;
+outline: none;
+color: #fff;
+background-color: #262fec;
+font-size: 20px;
+font-weight: 500;
+cursor: pointer;
+transition: all 300ms ease-in-out;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+border-top-right-radius: 16px;
+padding: 0 10px;
+
+&:hover {
+    background-color: #1820bb;
+}
+`;
+
 export function Details(props) {
     return(
         <DetailsContainer>
@@ -43,6 +89,10 @@ export function Details(props) {
                 <Header>Hey, wait...</Header>
                 <SubHeader>Subscribe to our newsletter!</SubHeader>
                 <Text>You will never miss our podcasts, latest news,etc. Our newsletter is once a weel, every wednesday.</Text>
+                <FormGroup>
+                    <EmailInput type="text" placeholder="example@email.com"></EmailInput>
+                    <SunscribeButton>Subscribe</SunscribeButton>
+                </FormGroup>
             </InnerContainer>
         </DetailsContainer>
     ) 
