@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Newsletter-card/static/css/main.7eded117.chunk.css",
+    "main.js": "/Newsletter-card/static/js/main.9c63946f.chunk.js",
+    "main.js.map": "/Newsletter-card/static/js/main.9c63946f.chunk.js.map",
+    "runtime-main.js": "/Newsletter-card/static/js/runtime-main.a598d1fa.js",
+    "runtime-main.js.map": "/Newsletter-card/static/js/runtime-main.a598d1fa.js.map",
+    "static/js/2.d8090b30.chunk.js": "/Newsletter-card/static/js/2.d8090b30.chunk.js",
+    "static/js/2.d8090b30.chunk.js.map": "/Newsletter-card/static/js/2.d8090b30.chunk.js.map",
+    "index.html": "/Newsletter-card/index.html",
+    "static/css/main.7eded117.chunk.css.map": "/Newsletter-card/static/css/main.7eded117.chunk.css.map",
+    "static/js/2.d8090b30.chunk.js.LICENSE.txt": "/Newsletter-card/static/js/2.d8090b30.chunk.js.LICENSE.txt",
+    "static/media/book-lover.3e9a6c23.svg": "/Newsletter-card/static/media/book-lover.3e9a6c23.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a598d1fa.js",
+    "static/js/2.d8090b30.chunk.js",
+    "static/css/main.7eded117.chunk.css",
+    "static/js/main.9c63946f.chunk.js"
+  ]
+}
